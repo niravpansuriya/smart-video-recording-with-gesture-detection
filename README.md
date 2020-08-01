@@ -7,6 +7,10 @@
 
 ![Three fingure gesture](https://github.com/niravpansuriya/smart-video--recording-with--gesture-detection/blob/master/3-fingures.JPG)
 
+<p align="center">
+  <img src="https://github.com/niravpansuriya/smart-video--recording-with--gesture-detection/blob/master/3-fingures.JPG" title="hover text">
+</p>
+
 - My basic task here to detect whether there exist three fingures in the frame.
 - It start capturing video frame by frame.
 - For each frame, this program do some processing on image, for detect 3 fingures.
