@@ -5,7 +5,7 @@
 
 ### How it works?
 
-![3 fingure gesture]("3-fingures.jpg?raw=true "Three Fingure Gesture")
+![Three fingure gesture](https://github.com/niravpansuriya/smart-video--recording-with--gesture-detection/blob/master/3-fingures.JPG)
 
 - My basic task here to detect whether there exist three fingures in the frame.
 - It start capturing video frame by frame.
