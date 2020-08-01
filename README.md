@@ -21,7 +21,7 @@
   - Find hull in palm. Hull in plam is space between two fingures.
 
 
-<p align="center">
+- <p align="center">
   <img src="https://github.com/niravpansuriya/smart-video--recording-with--gesture-detection/blob/master/defects.JPG" title="Defects">
 </p>
 
