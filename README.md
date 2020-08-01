@@ -18,7 +18,7 @@
 - - Apply gaussian blurred low pass filter on image to remove noise.
 - - Find contours. Contours are the curves joining all the continuous points. 
 - - Find largest contour. Most probably it will be the palm, if there exist palm in a frame.
-- - Find hull in palm. Hull in plam is space between two fingures.
+  - Find hull in palm. Hull in plam is space between two fingures.
 
 
 <p align="center">
