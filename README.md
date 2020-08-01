@@ -5,7 +5,7 @@
 
 ### How it works?
 
-![3 fingure gesture]("./3-fingures.jpg?raw=true "Three Fingure Gesture")
+![3 fingure gesture]("3-fingures.jpg?raw=true "Three Fingure Gesture")
 
 - My basic task here to detect whether there exist three fingures in the frame.
 - It start capturing video frame by frame.
@@ -17,7 +17,7 @@
 - - Find largest contour. Most probably it will be the palm, if there exist palm in a frame.
 - - Find hull in palm. Hull in plam is space between two fingures.
 
-![Defects]("./defects.jpg?raw=true "Defects")
+![Defects]("defects.jpg?raw=true "Defects")
 
 - - Now I have hull. Any deviation of the object from this hull can be considered as convexity defect.
 - - With the help of defects, I find the Convex Points and with these points, I find angle of hull.
