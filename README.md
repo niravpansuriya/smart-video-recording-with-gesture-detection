@@ -5,10 +5,8 @@
 
 ### How it works?
 
-![Three fingure gesture](https://github.com/niravpansuriya/smart-video--recording-with--gesture-detection/blob/master/3-fingures.JPG)
-
 <p align="center">
-  <img src="https://github.com/niravpansuriya/smart-video--recording-with--gesture-detection/blob/master/3-fingures.JPG" title="hover text">
+  <img src="https://github.com/niravpansuriya/smart-video--recording-with--gesture-detection/blob/master/3-fingures.JPG" title="Three Fingures Gesture">
 </p>
 
 - My basic task here to detect whether there exist three fingures in the frame.
@@ -21,7 +19,9 @@
 - - Find largest contour. Most probably it will be the palm, if there exist palm in a frame.
 - - Find hull in palm. Hull in plam is space between two fingures.
 
-![Defects]("defects.jpg?raw=true "Defects")
+<p align="center">
+  <img src="https://github.com/niravpansuriya/smart-video--recording-with--gesture-detection/blob/master/defects.JPG" title="Defects">
+</p>
 
 - - Now I have hull. Any deviation of the object from this hull can be considered as convexity defect.
 - - With the help of defects, I find the Convex Points and with these points, I find angle of hull.
