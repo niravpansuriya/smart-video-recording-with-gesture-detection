@@ -5,6 +5,7 @@
 
 ### How it works?
 
+
 <p align="center">
   <img src="https://github.com/niravpansuriya/smart-video--recording-with--gesture-detection/blob/master/3-fingures.JPG" title="Three Fingures Gesture">
 </p>
@@ -18,6 +19,7 @@
 - - Find contours. Contours are the curves joining all the continuous points. 
 - - Find largest contour. Most probably it will be the palm, if there exist palm in a frame.
 - - Find hull in palm. Hull in plam is space between two fingures.
+
 
 <p align="center">
   <img src="https://github.com/niravpansuriya/smart-video--recording-with--gesture-detection/blob/master/defects.JPG" title="Defects">
