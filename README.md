@@ -10,6 +10,10 @@
   <img src="https://github.com/niravpansuriya/smart-video--recording-with--gesture-detection/blob/master/3-fingures.JPG" title="Three Fingures Gesture">
 </p>
 
+<p align="center">
+  <img src="https://github.com/niravpansuriya/smart-video--recording-with--gesture-detection/blob/master/defects.JPG" title="Defects">
+</p>
+
 - My basic task here to detect whether there exist three fingures in the frame.
 - It start capturing video frame by frame.
 - For each frame, this program do some processing on image, for detect 3 fingures.
@@ -18,13 +22,7 @@
   - Apply gaussian blurred low pass filter on image to remove noise.
   - Find contours. Contours are the curves joining all the continuous points. 
   - Find largest contour. Most probably it will be the palm, if there exist palm in a frame.
-  - Find hull in palm. Hull in plam is space between two fingures.
-
-
-- <p align="center">
-  <img src="https://github.com/niravpansuriya/smart-video--recording-with--gesture-detection/blob/master/defects.JPG" title="Defects">
-</p>
-
+  - Find hull in palm. Hull in plam is space between two fingures
   - Now I have hull. Any deviation of the object from this hull can be considered as convexity defect.
   - With the help of defects, I find the Convex Points and with these points, I find angle of hull.
   - If angle is less than 90, then it is the hull between two findures.
