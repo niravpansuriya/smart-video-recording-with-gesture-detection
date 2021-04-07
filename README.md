@@ -1,4 +1,4 @@
-# Driver Drowsiness Detection
+# Smart Video Recording with Gesture Detection
 
 - This program will start the video recording, if it will detect the gesture(right now 3 fingures).
 
